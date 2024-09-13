@@ -51,13 +51,14 @@
 .title-conten {
   height: 40%;
   width: 99%;
-
+  padding: 1rem;
   color: white;
 }
 h1,
 H2 {
-  padding-left: 1.4rem;
-  line-height: 4rem;
+  font-size: 1.3rem;
+  padding-left: 1.3rem;
+  line-height: 2.4rem;
 }
 .photos-conten {
   height: 60%;
@@ -74,23 +75,23 @@ H2 {
   align-items: center;
   display: flex;
   padding-left: 1.4rem;
-  line-height: 4rem;
+  line-height: 2rem;
 }
 #one:hover {
-  color: rgb(85, 85, 239);
+  color: rgba(26, 26, 226, 0.848);
 }
 #two:hover {
-  color: rgb(16, 84, 201);
+  color: rgb(30, 98, 214);
 }
 #three:hover {
   color: rgb(198, 42, 123);
 }
 #four:hover {
-  color: rgb(239, 13, 13);
+  color: rgb(27, 6, 6);
 }
 .social_media i {
-  font-size: 1.8rem;
-  padding-right: 1.2rem;
+  font-size: 1.4rem;
+  padding-right: 0.9rem;
   color: #f7fef9;
 }
 .back-to-home {
@@ -102,6 +103,6 @@ H2 {
 }
 .back-to-home a {
   color: white;
-
-  padding-left: 1rem;
+  font-size: 1.2rem;
+  padding-left: 0.1rem;
 }
