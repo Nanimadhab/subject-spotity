@@ -1,0 +1,107 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.contener {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/assets/photo-1508556919487-845f191e5742.avif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left-div {
+  height: 80vh;
+  width: 45%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.168);
+  background-color: blur(6px);
+  border-radius: 1rem;
+}
+.right-div {
+  height: 80vh;
+  width: 45%;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.168);
+  background-color: blur(6px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.photo-conten {
+  height: 60%;
+  width: 99%;
+
+  background-image: url("/assets/WhatsApp\ Image\ 2024-09-12\ at\ 19.38.22_71da42b2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.title-conten {
+  height: 40%;
+  width: 99%;
+
+  color: white;
+}
+h1,
+H2 {
+  padding-left: 1.4rem;
+  line-height: 4rem;
+}
+.photos-conten {
+  height: 60%;
+  width: 99%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  background-image: url("/assets/WhatsApp\ Image\ 2024-09-12\ at\ 19.30.51_c89bb751.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.social_media {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  padding-left: 1.4rem;
+  line-height: 4rem;
+}
+#one:hover {
+  color: rgb(85, 85, 239);
+}
+#two:hover {
+  color: rgb(16, 84, 201);
+}
+#three:hover {
+  color: rgb(198, 42, 123);
+}
+#four:hover {
+  color: rgb(239, 13, 13);
+}
+.social_media i {
+  font-size: 1.8rem;
+  padding-right: 1.2rem;
+  color: #f7fef9;
+}
+.back-to-home {
+  position: fixed;
+  top: 10px;
+  left: 60px;
+  font-size: 2rem;
+  color: white;
+}
+.back-to-home a {
+  color: white;
+
+  padding-left: 1rem;
+}
