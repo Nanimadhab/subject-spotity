@@ -147,9 +147,9 @@ H2 {
   }
   h1,
   H2 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding-left: 1.3rem;
-    line-height: 1.3rem;
+    line-height: 1.9rem;
   }
   .back-to-home {
     position: fixed;
