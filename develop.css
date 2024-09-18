@@ -97,7 +97,7 @@ H2 {
 .back-to-home {
   position: fixed;
   top: 10px;
-  left: 60px;
+  left: 20px;
   font-size: 2rem;
   color: white;
 }
@@ -105,4 +105,61 @@ H2 {
   color: white;
   font-size: 1.2rem;
   padding-left: 0.1rem;
+}
+@media (max-width: 768px) and (min-width: 320px) {
+  .contener {
+    height: 155vh;
+    width: 100%;
+    background-image: url("/assets/photo-1508556919487-845f191e5742.avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-div {
+    height: 60vh;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.168);
+    background-color: blur(6px);
+    border-radius: 1rem;
+    margin-right: 4rem;
+  }
+  .right-div {
+    height: 60vh;
+    width: 70%;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.168);
+    background-color: blur(6px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4rem;
+  }
+  h1,
+  H2 {
+    font-size: 0.9rem;
+    padding-left: 1.3rem;
+    line-height: 1.3rem;
+  }
+  .back-to-home {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    font-size: 1rem;
+    color: white;
+  }
+  .back-to-home a {
+    color: white;
+    font-size: 0.8rem;
+  }
 }

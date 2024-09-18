@@ -42,6 +42,9 @@ a {
   text-decoration: none;
   color: #fff;
 }
+.hideing {
+  display: none;
+}
 .nav {
   background-color: #121212;
   border-radius: 0.5rem;
@@ -412,4 +415,155 @@ a {
 .progress-bar {
   width: 70%;
   cursor: pointer;
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .sidebar {
+    display: none;
+  }
+  .footer-bar {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    text-transform: capitalize;
+  }
+  .footer-bar p {
+    line-height: 1.5rem;
+  }
+  .footer {
+    display: none;
+  }
+  .footbox {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    line-height: 1.9rem;
+  }
+  .main-content {
+    background-color: #121212;
+    flex: 1;
+    overflow: auto;
+    width: 100%;
+    padding: 0px;
+  }
+  .social_media {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin-top: 1.6rem;
+  }
+  .controls {
+    display: none;
+  }
+  .player {
+    width: 90%;
+  }
+  .album {
+    display: none;
+  }
+  .sticky-navbar {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    display: flex;
+    top: 0px;
+    padding: 1rem 0 1rem 0;
+    z-index: 5;
+    background-color: #000000;
+  }
+  .main {
+    display: flex;
+    height: 100vh;
+  }
+  .sticky-navbar {
+    display: none;
+  }
+
+  .btn_one {
+    display: flex;
+    color: white;
+    font-size: 2.5rem;
+    width: 100%;
+    background-color: #000000;
+    position: static;
+    margin-left: 0.3rem;
+  }
+
+  .sidebar_menu {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    left: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(5, 5, 5, 0.932);
+    box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.05);
+    z-index: 10;
+  }
+  .sidebar_menu .logo {
+    position: absolute;
+
+    height: 75px;
+    width: 100%;
+    line-height: 80px;
+    box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.216);
+  }
+  .sidebar_menu .logo a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 35%;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .sidebar_menu .btn_two i {
+    position: absolute;
+    font-size: 20px;
+    line-height: 80px;
+    left: 90%;
+    color: white;
+    transition: all 0.2s linear;
+    cursor: pointer;
+  }
+  .sidebar_menu .menu {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+  }
+  .sidebar_menu .menu li {
+    margin: 9px 6px;
+    padding: 14px 26px;
+    transition: all 0.2s linear;
+  }
+  .sidebar_menu .menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .sidebar_menu .menu i {
+    color: white;
+    padding-right: 10px;
+  }
+  .sidebar_menu .menu li:hover {
+    box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.661);
+    background-color: rgba(255, 255, 255, 0.088);
+  }
+  .sidebar_menu .menu li:active {
+    box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.124);
+    background-color: rgba(255, 255, 255, 0.466);
+    font-size: 0.8rem;
+  }
+
+  #check:checked ~ .sidebar_menu {
+    left: 0;
+  }
+  #check:checked ~ .btn_one {
+    opacity: 0;
+  }
 }
